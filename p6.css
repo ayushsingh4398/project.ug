@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg: red;
+}
+
+.body{
+    font-size: 1.4rem;
+}
+
+.navbar{
+    border: 2px solid black;
+    background-color: rgb(174, 187, 244);
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    color: rgb(43, 52, 44);
+    border: 2px solid blue;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(245, 145, 162);
+    
+}
+
+.navbar ul li a:hover{
+    background-color:  rgb(248, 211, 218);
+    box-shadow: 2px 2px;
+    font-weight: bold;
+}
+.navbar ul li a:active{
+    font-weight: bolder;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    /* border:2px solid black; */
+    min-height: 560px;
+    background-color:  rgb(203, 250, 235);
+}
+
+.left-text{
+    font-size: 2rem;
+    /* border: 2px solid red; */
+    flex-basis: 40%;
+    height: auto;
+
+}
+
+.signuppage form{
+    border: 2px solid #ccc;
+    /* background-color: #ffffffcc; */
+    backdrop-filter: blur(8px);
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #2773a5;
+    /* z-index: 1; */
+}
+
+.signuppage form label{
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.signuppage input{
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.signuppage form header{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.signuppage input[type="submit"]{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signuppage input[type="submit"]:hover{
+    background-color: #2773a5;
+}
+
+.signuppage form footer{
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33, #ffffffff);
+    position: absolute;
+    /* z-index: .5; */
+}
+
+.c1{
+    left: 600px;
+    bottom: 50px;
+}
+
+.c2{
+    right: 10px;
+    top: 100px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    /* border:2px solid black; */
+    font-size: 1.6rem;
+    background-color:  rgb(203, 250, 235);
+}
+
+.container2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+}
+
+.container2 .fimg p{
+    display: block;
+}
+
+.fimg {
+    flex-basis: 30%;
+    justify-content: center;
+    height: 320px;
+    /* border: 2px solid black; */
+    
+}
+
+.right-text{
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 60%;
+    /* border: 2px solid black; */
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    /* border:2px solid black; */
+    font-size: 1.6rem;
+    background-color:  rgb(203, 250, 235);
+}
+
+
+.container3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+}
+
+.container3 .fimg2 p{
+    display: block;
+}
+
+.fimg2 {
+    flex-basis: 30%;
+    justify-content: center;
+    height: 320px;
+    /* border: 2px solid black; */
+    
+}
+
+.left-text2{
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 60%;
+    /* border: 2px solid black; */
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    /* border:2px solid black; */
+    font-size: 1.6rem;
+    background-color:  rgb(203, 250, 235);
+}
+
+.container4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+}
+
+.container4 .fimg3 p{
+    display: block;
+}
+
+.fimg3 {
+    flex-basis: 30%;
+    justify-content: center;
+    height: 320px;
+    /* border: 2px solid black; */
+    
+}
+
+.right-text3{
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 60%;
+    /* border: 2px solid black; */
+}

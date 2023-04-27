@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    border: 2px solid red;
+    display: grid;
+    width: 100vw;
+    height: 70vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.box{
+    border: 2px solid green;
+    /* background-color: orange; */
+    background-image: cover;
+}
+
+.box1{
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    grid-row: 1/span 3;
+    background-color: aqua;
+    background-image: url(imgs/image5.jpg);
+
+}
+
+.box2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: greenyellow;
+}
+
+.box4{
+    
+    background-size: cover;
+}
+
+.bgorng{
+    background-color: orange;
+}
+.bgred{
+    background-color: rgb(242, 103, 103);
+}
+.box5 .box6{
+    background-color: orange;
+}
+
+.box8{
+    grid-row-start:2;
+    grid-row-end:4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: pink;
+}
+/* grid-area: "nav nav nav nav"
+           "sd mn mn sd"
+           "sd mn mn sd"
+           "sd mn mn sd"; */

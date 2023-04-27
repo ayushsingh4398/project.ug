@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    border: 20px solid greenyellow;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.box1{
+    border: 10px solid gold;
+    width: 25%;
+    height: 500px;
+    padding: 20px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgba(169, 169, 221, 0.697);
+}
+
+.box2{
+    border: 10px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+}
