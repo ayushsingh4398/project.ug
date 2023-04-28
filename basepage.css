@@ -15,7 +15,7 @@
 }
 
 body{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'poppins' sans-serif;
     color: var(--primary-text-color);
 }
 
@@ -98,22 +98,6 @@ ul{
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
 }
-
-/* top banner */
-
-.top-banner{
-    background-color: #4fb3d4;
-    background-image: url(./assets/asset\ 32.png);
-    background-size: 300px;
-
-}
-
-.banner-text{
-    color:white;
-    padding: 15px 30px;
-    text-align: center;
-}
-
 /* nav bar */
 
 .main-nav{
@@ -133,141 +117,6 @@ ul{
     justify-content: end;
     gap: 40px;
     font-weight: bold;
-}
-
-/* header section */
-
-header{
-    padding: 50px var(--padding-inline-section);
-}
-
-.header-section{
-    justify-content: center;
-    gap: 50px;
-}
-
-.header-left h1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.header-left{
-    max-width: 40vw;
-}
-
-.get-started-button{
-    margin-top: 20px;
-    border: none !important;
-}
-
-.header-right img{
-    width: 600px;
-}
-
-/* companies section */
-
-.companies-header{
-    text-align: center;
-    margin-block: 30px;
-    color: var(--primary-text-color);
-}
-
-.logos{
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.logo{
-    height: 46px;
-}
-
-/* features section */
-
-.features-section{
-    padding:80px var(--padding-inline-section) 0;
-   
-}
-
-.features-area{
-    background-image: url(./assets/asset\ 41.png);
-    background-repeat: no-repeat;
-    background-position: center;    
-}
-
-.features-header{
-    text-align: center;
-}
-
-.features-heading-text{
-    margin-bottom: 20px;
-}
-
-.features-area{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 30px;
-    /* border: 0.5px solid #7ec4f9;
-    padding: 40px 40px;
-    border-radius: 4px; */
-    margin-bottom: 30px;
-}
-
-.features-card{
-    flex-direction: column;
-    gap: 20px;
-    max-width: 30%;  
-    text-align: center;
-}
-
-
-.features-card img{
-    width: 80px;
-}
-
-/* big feature section */
-
-.big-feature-section{
-    padding: 30px var(--padding-inline-section) 0;
-}
-
-.big-feature-container{
-    gap: 30px;
-}
-
-.feature-img img{
-    width: 100%;
-}
-
-.feature-desc{
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-/* examples section */
-
-.examples-header{
-    flex-direction: column;
-    gap: 20px;
-}
-
-
-/* cta section */
-
-.cta-section{
-    padding: 120px var(--padding-inline-section) 80px;
-    background-color: #183b54;
-}
-
-.cta-section-container{
-    flex-direction: column;
-    gap: 30px;
-    color: white;
-}
-
-.cta-section-container p{
-    color: white;
-    margin-top: 20px;
 }
 
 /* footer */
